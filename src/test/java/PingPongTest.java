@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
-
-
 public class PingPongTest {
     @Test
     public void runPingPong_countUpToOne_ArrayList() {
@@ -15,7 +13,6 @@ public class PingPongTest {
         expectedOutput.add(1);
         assertEquals(expectedOutput, testPingPong.runPingPong(1));
     }
-
     @Test
     public void runPingPong_replaceMultiplesOfBoth3And5_ArrayList() {
         PingPong testPingPong = new PingPong();
